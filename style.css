@@ -1,0 +1,44 @@
+body, html {
+	background: #2a2a2a;
+	color: #b0b0b0;
+}
+a {
+	color: #7474DD;
+}
+input, textarea {
+	background-color: #7D7D7D;
+	border: 1px solid #1E1E1E;
+	color: #fff;
+}
+.reply {
+	background: #2F2F2F;
+	border: none;
+	color: #b0b0b0;
+}
+
+.spoiler, s {
+    color: #b3acac !important;
+    background-color: #272626 !important;
+}
+
+.postblock {
+	background: #2a2a2a;
+	border: 1px solid #3c3c3c;
+	color: #8c8c8c;
+}
+
+a, .filetitle {
+	color: #aaa;
+}
+
+a:hover, a:visited, .omittedposts, .logo {
+	color: #8c8c8c;
+}
+
+pre {
+     white-space: pre-wrap;
+     white-space: -moz-pre-wrap;
+     white-space: -pre-wrap;
+     white-space: -o-pre-wrap;
+     word-wrap: break-word;
+}
