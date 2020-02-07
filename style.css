@@ -44,8 +44,19 @@
         word-wrap: break-word;
         /* Internet Explorer 5.5+ поддерживается в IE, Safari, и Firefox 3.1.*/
     }
-
     .thumbnailmsg {
         color : #f79696;
+    }
+    .theader {
+        background: #535353;
+    }
+    .adminMenu {
+        background: #353332;
+    }
+    .hlTable td {
+        background: #686766;
+    }
+    input[class="paginator"] {
+        background-color: #535353;
     }
 }
