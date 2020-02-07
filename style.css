@@ -1,47 +1,51 @@
 @-moz-document domain("nowere.net"), domain("iichan.hk"), domain("bbs.anoma.ch") {
     body, html {
-	background: #2a2a2a;
-	color: #b5b5b5;
-	font-size: 14px;
+        background: #2a2a2a;
+        color: #b5b5b5;
+        font-size: 14px;
     }
     a {
-	color: #7474DD;
+        color: #7474DD;
     }
     input, textarea {
-	background-color: #7D7D7D;
-	border: 1px solid #1E1E1E;
-	color: #fff;
+        background-color: #7D7D7D;
+        border: 1px solid #1E1E1E;
+        color: #fff;
     }
     .reply {
-	background: #2F2F2F;
-	border: none;
-	color: #b0b0b0;
+        background: #2F2F2F;
+        border: none;
+        color: #b0b0b0;
     }
-
     .spoiler, s {
         color: #b3acac !important;
         background-color: #272626 !important;
     }
-
     .postblock {
-	background: #2a2a2a;
-	border: 1px solid #3c3c3c;
-	color: #8c8c8c;
+        background: #2a2a2a;
+        border: 1px solid #3c3c3c;
+        color: #8c8c8c;
     }
-
     a, .filetitle {
-	color: #aaa;
+        color: #aaa;
     }
-
     a:hover, a:visited, .omittedposts, .logo {
-	color: #8c8c8c;
+        color: #8c8c8c;
+    }
+    pre {
+        white-space: pre-wrap;
+        /* css-3 */
+        white-space: -moz-pre-wrap;
+        /* Mozilla, с 1999 */
+        white-space: -pre-wrap;
+        /* Opera 4-6 */
+        white-space: -o-pre-wrap;
+        /* Opera 7 */
+        word-wrap: break-word;
+        /* Internet Explorer 5.5+ поддерживается в IE, Safari, и Firefox 3.1.*/
     }
 
-    pre {
-        white-space: pre-wrap;       /* css-3 */
-        white-space: -moz-pre-wrap;  /* Mozilla, с 1999 */
-        white-space: -pre-wrap;      /* Opera 4-6 */
-        white-space: -o-pre-wrap;    /* Opera 7 */
-        word-wrap: break-word;       /* Internet Explorer 5.5+ поддерживается в IE, Safari, и Firefox 3.1.*/
+    .thumbnailmsg {
+        color : #f79696;
     }
 }
